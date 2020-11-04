@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+// using System.Net.Http;
 
 namespace web.Pages
 {
@@ -17,9 +18,10 @@ namespace web.Pages
             _logger = logger;
         }
 
-        public void OnGet()
+        public async void OnGet()
         {
 
         }
+        
     }
 }
